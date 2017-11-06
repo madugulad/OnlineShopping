@@ -23,7 +23,7 @@
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/madug/Downloads/spring-tx-5.0.0.RELEASE.jar">
+	<classpathentry kind="lib" path="C:/Java/Spring Project Tutorial/Project/onlineshopping/onlineshopping/src/main/webapp/WEB-INF/lib/spring-tx-5.0.0.RELEASE.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
 		</attributes>

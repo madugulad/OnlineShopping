@@ -6,10 +6,6 @@ import com.deep.backend.dto.Category;
 
 public interface CategoryDAO {
 
-	
-	
-	List<Category> list();
-	
 	Category getCategory(int id);
 	
 	boolean add(Category category);
@@ -17,4 +13,6 @@ public interface CategoryDAO {
 	boolean update(Category category);
 	
 	boolean delete(int id);
+	
+	List<Category> list();
 }
