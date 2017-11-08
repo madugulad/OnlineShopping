@@ -1,17 +1,8 @@
 <div class="container">
 
-
-
-
-
-
 	<div class="row">
-
-		
 			<%@include file="./shared/sidebar.jsp"%>
 		
-
-
 		<div class="col-lg-9">
 			<div class="row">
 				<!-- <div class="col-lg-12">-->
@@ -33,6 +24,18 @@
 					</c:if>
 				<!-- </div> -->
 			</div>
+		
+			<div class="row">
+				<table id="tblProductList" class="table table-striped table-bordered">
+					<thead>
+						<tr>
+							<th>ID</th>
+							<th>Name</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+			
 		</div>
 	</div>
 
